@@ -55,7 +55,7 @@ We initialized A and B to have small random component values between $-0.1$ and 
 
 The average confusion matrix over the whole cross validation was found to be:
 
- \begin{array} {|r|r|}\hline  & Positve & Negative \\ \hline True & 0.216 & 0.626 \\ \hline False & 0.002 & 0.156 \\ \hline  \end{array}
+![image](https://user-images.githubusercontent.com/85080576/171761599-514d1f09-2823-43a4-bc59-007b1ddb28c0.png)
 
 This gives us an accuracy of $84.2\%$.
 
