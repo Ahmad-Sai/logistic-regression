@@ -3,5 +3,4 @@ File name 'data.csv' is the orignal raw data that was obatined from the Breast C
 File name 'data_clean.csv' is the cleaned and organized data that was used in the training and testing process.
 
 Below are the 5 most improtant columns as per the average and standard deviation calculations
-
 concave points_mean - concave points_worst - concavity_mean - radius_worst - perimeter_worst   
