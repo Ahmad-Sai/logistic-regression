@@ -57,7 +57,7 @@ The average confusion matrix over the whole cross validation was found to be:
 
 ![image](https://user-images.githubusercontent.com/85080576/171761599-514d1f09-2823-43a4-bc59-007b1ddb28c0.png)
 
-This gives us an accuracy of $84.2\%$.
+This gives us an accuracy of $84.2 \%$.
 
 We interpreted since the data is normalized we interpret the absolute value of the coefficients of $A$ as being an indication of the feature's relative importance. Based on this assumption we found the $3$ most important features to be, _'concave points-mean', 'concave points_worst'_, and _'concavity_mean'_.
 
