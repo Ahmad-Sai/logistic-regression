@@ -31,7 +31,7 @@ As we can see the data is not linearly separable in this 3-dimensional projectio
 
 Recall that every linear model has the form $y = Ax + B$, where $x$ is the input vector, $A$ is a row vector that gets placed in a dot product with $x$, $y$ is the output, and $B$ is just a number. Our main task for Logistic regression is to find $A$ and $B$ that best represent and fit our data. 
 
-Akin to a linear model, a logistic model has the form $round (\sigma(Ax + B))$, where $round$ is the rounding operator and $\sigma{(z)} = \frac{1}{1+e^{-z}} $. Similar to a linear model our main goal is to find $A$ and $B$ that best model the data. To do this we look for the parameters $A$ and $B$ which maximize the accuracy of the model with respect to the data. As a seregate we instead minimize the total loss over the whole data set, $$ Loss(A, B, x, y) = -y\cdot\log \big({\frac{1}{1+e^{-(Ax+B)}}\big)} - (1-y)\cdot\log \big(1-{\frac{1}{1+e^{-(Ax+B)}}\big)}$$
+Akin to a linear model, a logistic model has the form $round (\sigma(Ax + B))$, where $round$ is the rounding operator and $\sigma{(z)} = \frac{1}{1+e^{-z}} $. Similar to a linear model our main goal is to find $A$ and $B$ that best model the data. To do this we look for the parameters $A$ and $B$ which maximize the accuracy of the model with respect to the data. As a seregate we instead minimize the total loss over the whole data set, $ Loss(A, B, x, y) = -y\cdot\log \big({\frac{1}{1+e^{-(Ax+B)}}\big)} - (1-y)\cdot\log \big(1-{\frac{1}{1+e^{-(Ax+B)}}\big)}$
 
 To solve this opimtzation probelm we used, **stockastic gradient descen (SGD)**, which involves iterating over each data point $(x, y)$, and updaing the values of $A$ and $B$ according to the following rule: 
 
